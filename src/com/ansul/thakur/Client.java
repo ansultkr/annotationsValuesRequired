@@ -8,6 +8,7 @@ public class Client {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		Student s = context.getBean("student",Student.class);
 		s.displayStudentInfo();
+		
 	}
 
 }
